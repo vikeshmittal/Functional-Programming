@@ -1,5 +1,5 @@
 (function(){	
-	function goToFirstFloor(houseNo, floors){
+	function goToFloor(houseNo, floors){
 		function openMainDoor(){
 			function goToStaircase(floor){
 				console.log('You are at ' + floor + ' floor of house ' + houseNo);
@@ -10,5 +10,5 @@
 		}
 		openMainDoor(floors);
 	}
-	goToFirstFloor('H-34',2);
+	goToFloor('H-34',2);
 }());
